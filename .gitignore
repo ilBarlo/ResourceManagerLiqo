@@ -1,0 +1,21 @@
+# Ignore binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore go build and test files
+*.test
+*.out
+*.prof
+build/
+vendor/
+
+# Ignore go generated files
+*.pb.go
+*_generated.go
+*.pb.gw.go
+*.swagger.json
+
+*.DS_Store
